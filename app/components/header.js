@@ -8,7 +8,7 @@ import {
   Button,
   Dropdown
 } from "react-bootstrap";
-import { logo2, resume } from "../../images";
+import { logo2, resume } from "../images";
 
 class CustomToggle extends React.Component {
   constructor(props, context) {
@@ -93,20 +93,48 @@ const Header = props => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu variant="dark">
-              <Dropdown.Item eventKey="1">
-                <a
-                  href="http://d2id8z8hcq9t2e.cloudfront.net/"
-                  target="_blank"
-                  style={{ "z-index": 1 }}
-                >
-                  Scratch
-                </a>
+              <Dropdown.Item
+                eventKey="1"
+                onClick={() =>
+                  (window.location.href =
+                    "http://d2id8z8hcq9t2e.cloudfront.net")
+                }
+              >
+                Scratch
               </Dropdown.Item>
-              <Dropdown.Item eventKey="2">LookBook12</Dropdown.Item>
+              <Dropdown.Item
+                eventKey="2"
+                onClick={() =>
+                  (window.location.href = "http://lookbook12.herokuapp.com")
+                }
+              >
+                LookBook12
+              </Dropdown.Item>
 
-              <Dropdown.Item eventKey="3">Moon Marauders</Dropdown.Item>
-              <Dropdown.Item eventKey="4">Iron Flowns</Dropdown.Item>
-              <Dropdown.Item eventKey="5">Build24</Dropdown.Item>
+              <Dropdown.Item
+                eventKey="3"
+                onClick={() =>
+                  (window.location.href = "https://shark-heron.herokuapp.com")
+                }
+              >
+                Moon Marauders
+              </Dropdown.Item>
+              <Dropdown.Item
+                eventKey="4"
+                onClick={() =>
+                  (window.location.href = "http://iron-flowns.herokuapp.com")
+                }
+              >
+                Iron Flowns
+              </Dropdown.Item>
+              <Dropdown.Item
+                eventKey="5"
+                onClick={() =>
+                  (window.location.href = "http://build24.herokuapp.com")
+                }
+              >
+                Build24
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -127,8 +155,22 @@ const Header = props => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu variant="dark">
-              <Dropdown.Item eventKey="1">LinkedIn</Dropdown.Item>
-              <Dropdown.Item eventKey="2">GitHub</Dropdown.Item>
+              <Dropdown.Item
+                eventKey="1"
+                onClick={() =>
+                  (window.location.href = "http://linkedin.com/in/adz218")
+                }
+              >
+                LinkedIn
+              </Dropdown.Item>
+              <Dropdown.Item
+                eventKey="2"
+                onClick={() =>
+                  (window.location.href = "http://github.com/adz218")
+                }
+              >
+                GitHub
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -145,8 +187,12 @@ const Header = props => {
               "font-size": 22,
               "background-color": "#FC3973"
             }}
+            onClick={() =>
+              (window.location.href =
+                "https://www.adam-zhou.com/static/Adam_Zhou-1055e05af118dbd27b65c4feb73406ef.pdf")
+            }
           >
-            <a href={resume}>RESUME</a>
+            RESUME
           </Button>
         </Navbar.Collapse>
       </Navbar>

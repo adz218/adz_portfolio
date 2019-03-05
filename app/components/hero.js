@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 import { Carousel } from "react-bootstrap";
-import { Scratch, Moon } from "../../images";
+import { Scratch, Moon } from "../images";
 
 const Hero = props => (
   <div>

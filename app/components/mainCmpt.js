@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { prof } from "../../images";
+import { prof } from "../images";
 import "./keyframes.css";
 
 const Main = props => {

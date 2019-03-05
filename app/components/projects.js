@@ -5,7 +5,7 @@ import {
   ironFlownsImg,
   lookBookImg,
   Scratch
-} from "../../images";
+} from "../images";
 import "./projects.css";
 
 const Project = props => (
