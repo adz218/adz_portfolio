@@ -1,11 +1,13 @@
 import React, { useState, useEffect, Fragment } from "react";
 import axios from "axios";
-import { Header, Hero } from "./components";
+import { Header, Main, Hero, Timeline, Projects } from "./components";
 
 const App = props => (
   <div>
     <Header />
-    <Hero />
+    <Main />
+    <Projects />
+    <Timeline />
   </div>
 );
 
