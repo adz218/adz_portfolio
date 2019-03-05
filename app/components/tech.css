@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.15px;
+  text-align: center;
+  margin-bottom: 1.7rem;
+}
+
+br {
+  line-height: 200%;
+}

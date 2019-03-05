@@ -43,7 +43,8 @@ const Main = props => {
             "flex-direction": "column",
             "justify-content": "center",
             padding: "0.7em 0.7em",
-            "font-family": "'Oswald', sans-serif",
+            "font-family": "'Roboto', sans-serif",
+            "font-weight": "700",
             "font-size": "18px",
             "letter-spacing": ".2px"
           }}
