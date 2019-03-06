@@ -9,3 +9,5 @@ export { default as build24Img } from "./build24Mockup.png";
 export { default as ironFlownsImg } from "./ironflownsmockup.png";
 export { default as lookBookImg } from "./lookbookimg.png";
 export { default as resume } from "./Adam_Zhou.pdf";
+export { default as gitIcon } from "./GitHub-Mark-32px.png";
+export { default as linkedIcon } from "./In-Black-34px-R.png";

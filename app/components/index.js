@@ -4,3 +4,4 @@ export { default as Main } from "./mainCmpt";
 export { default as Timeline } from "./timeline";
 export { default as Projects } from "./projects";
 export { default as Skills } from "./tech";
+export { default as Footer } from "./footer";

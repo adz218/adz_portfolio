@@ -1,6 +1,14 @@
 import React, { useState, useEffect, Fragment } from "react";
 import axios from "axios";
-import { Header, Main, Hero, Timeline, Projects, Skills } from "./components";
+import {
+  Header,
+  Main,
+  Hero,
+  Timeline,
+  Projects,
+  Skills,
+  Footer
+} from "./components";
 
 const App = props => (
   <div>
@@ -9,6 +17,7 @@ const App = props => (
     <Skills />
     <Projects />
     <Timeline />
+    <Footer />
   </div>
 );
 
