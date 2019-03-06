@@ -14,6 +14,7 @@ const Footer = props => (
     }}
   >
     <img
+      className="icon-img"
       src={gitIcon}
       onClick={() => (window.location.href = "https://github.com/adz218")}
       style={{
@@ -24,6 +25,7 @@ const Footer = props => (
       }}
     />
     <img
+      className="icon-img"
       src={linkedIcon}
       onClick={() => (window.location.href = "https://linkedin.com/in/adz218")}
       style={{
